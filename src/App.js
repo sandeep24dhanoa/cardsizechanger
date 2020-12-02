@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="p-4 justify-between items-center width-58">
-        <Slider className="w-40" min={140} max={300} onChange={setSize} />
+        <Slider className="w-40" min={200} max={300} onChange={setSize} />
         <Slider className="w-40 " min={30} max={100} onChange={setRadius} />
       </div>
 
