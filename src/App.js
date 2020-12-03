@@ -8,7 +8,7 @@ function App() {
   const [radius, setRadius] = useState();
 
   const increment = (val) => setPlus(plus.concat(val).slice(0, val));
-
+  console.log("HEllo");
   return (
     <div className="App">
       <div className="p-4 justify-between items-center width-58">
